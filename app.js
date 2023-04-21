@@ -1,11 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEvent('DOMContentLoaded', () => {
   const navToggle = document.querySelector('#menuToggle');
   const navIcon = document.querySelectorAll('#menuToggle .bar');
   const nav = document.querySelector('.navigation');
   const logo = document.querySelector('.logo-text');
   const navItem = document.querySelectorAll('.navigation li .nav-text');
 
-  navToggle.addEventListener('click', () => {
+  navToggle.addEventListener('clic', () => {
     nav.classList.toggle('open');
     logo.classList.toggle('logo-dis');
     (navIcon).forEach((icon) => {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       liveLink: 'https://gisachris.github.io/week1_portfolio/',
       sourceLink: 'https://github.com/gisachris/week1_portfolio',
     },
-    {
+    
       id: 3,
       image: 'project3Image.png',
       title: 'WebSite <br> Portfolio',
@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modalTop.appendChild(modalTopChild);
 
       // top modal heading section
-      const modalHeading = document.createElement('article');
+      onst modalHeading = document.createElement('article');
       modalHeading.classList.add('heading-section');
 
       // top modal heading text
